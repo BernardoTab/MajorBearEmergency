@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "09708073-14d6-4ea6-93a5-47026ebfc8a3",
+  "name": "SkullBones",
+  "symbol": "bg_skullbones",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "SkullBones.png",
+  "tileColors": ""
+}
