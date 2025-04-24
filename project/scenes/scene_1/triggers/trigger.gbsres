@@ -11,12 +11,11 @@
   "height": 3,
   "script": [
     {
-      "command": "EVENT_ACTOR_EMOTE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "actorId": "$self$",
-        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+        "customEventId": "df0347f1-a6dc-4d0d-a297-0b7f6b2bee57"
       },
-      "id": "730848fd-357a-4b37-810c-7bc6f1523146"
+      "id": "c4a69848-2f14-4f72-84e0-fbcc6b4bcf35"
     }
   ],
   "leaveScript": [],

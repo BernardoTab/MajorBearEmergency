@@ -1,0 +1,56 @@
+{
+  "_resourceType": "script",
+  "id": "df0347f1-a6dc-4d0d-a297-0b7f6b2bee57",
+  "name": "ShowEmoteAndStopMove",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SCRIPT_LOCK",
+      "args": {},
+      "id": "a179af1b-52ac-4df3-bba2-4b516feced16"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false
+      },
+      "id": "77bba1d9-6521-4dba-b3a0-339bb7e34334"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+      },
+      "id": "5824d9b4-d2f8-4aca-8002-79a3b42185be"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "150e06c4-c4ed-461d-9b2b-761308c70b12"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "d0929e34-2e79-484c-a70f-a88c84c70ec6"
+    },
+    {
+      "command": "EVENT_SCRIPT_UNLOCK",
+      "args": {},
+      "id": "b0d34beb-4f5b-4a25-80ce-9fa76db5420c"
+    }
+  ]
+}
